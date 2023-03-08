@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(/fonts/Gilroy-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(/fonts/Gilroy-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+  }
+h2{
+    font-family: 'Gilroy-Bold';;
+}
+  
+body{
+    
+    
+    background: #FFFFFF;
+    
+}
+.container{
+    max-width: 1445px;
+    padding-left: 251px;
+    padding-right: 251px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  a {
+    text-decoration: none; 
+    }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+ .link{
+        color: #828282;
+        font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        line-height: 22px;
+    }
+.link:hover{
+    color: #070707;
+}
+
+.menu > li:not(:last-child){
+    padding-right: 155px;
+    
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.text-person{
+   box-sizing: content-box;
+   max-width: 155px;
+   margin-top: 94px;
+   margin-bottom: 87px;
+   font-family: 'Gilroy-Medium';
+   font-size: 18px;
+   line-height: 22px;
+   color: #070707;
+}
+.name-person{
+    box-sizing: content-box;
+    max-width: 123,51px;
+    margin-top: 39,69px;
+    margin-bottom: 67.7px;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+.language-buttom{
+    box-sizing: border-box;
+    transform: rotate(-90deg) translateY(23px)translateX(110px);
+    display: block;
+    
+}
+.button{
+    border: 0;
+    background-color: #FFFFFF;
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:bolder;
+    padding: 0;
+}
+.button:hover{
+    color: #070707;
+}
+.image{
+    margin-bottom: 67px;
+}
+.about-me{
+    background: #F6F6F6;
+    box-sizing: border-box;
+    text-align: center;
+    height: 506px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.p-about-me{
+    margin-top: 17,69px;
+    display: block;
+    box-sizing: content-box;
+    max-width: 485px;
+    transform: translateX(237px);
+    margin-bottom: 107px;
+}
+.h2-about-me{
+    padding-top: 120px;
+    margin: 0;
+    
+}
+.Skills{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    margin-top: 91px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+.ul-skills{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-bottom: 110px;
+}
+.h2-skills{
+margin-bottom: 70px;
+}
+.p-skills{
+    margin-bottom: 86px;
+}
+.text-portfolio{
+    text-align: center;
+}
+.porfolio{
+    background: #F6F6F6;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+.h2-portfolio{
+  padding-top: 113px;
+  padding-bottom: 47px;
+
+}
+.p-portfolio{
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+.footer{
+box-sizing: border-box;
+text-align: center;
+font-family: 'Gilroy-Medium';
+margin-top: 115px;
+}
+.div-ul-footer{
+    
+    box-sizing: content-box;
+    text-align: center;
+    max-width:350px;
+    transform: translateX(295px);
+
+}
+.ul-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.button-footer{
+    width: 180.5px;
+    height: 42px;
+    left: 634.76px;
+    top: 4388px;
+    background-color: #070707;
+    color:#F6F6F6;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;   
+    border-radius: 20px;
+    font-family: 'Gilroy-Bold';
+    margin-top: 30px;
+   margin-bottom: 85px;
+}
+.p-footer{
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #828282;
+    padding-top: 45px;
+    padding-bottom: 124px;
+}
+.h2-footer{
+    padding-top: 20px;
+    
+}
